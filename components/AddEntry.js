@@ -183,17 +183,17 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
   },
   iosSubmitBtn: {
     backgroundColor: purple,
     padding: 10,
     borderRadius: 7,
     height: 45,
+    marginLeft: 40,
     marginRight: 40,
-    marginLeft: 40
   },
-  androidSubmitBtn: {
+  AndroidSubmitBtn: {
     backgroundColor: purple,
     padding: 10,
     paddingLeft: 30,
@@ -202,20 +202,20 @@ const styles = StyleSheet.create({
     borderRadius: 2,
     alignSelf: 'flex-end',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
-  SubmitBtnText: {
+  submitBtnText: {
     color: white,
     fontSize: 22,
-    textAlign: 'center'
+    textAlign: 'center',
   },
   center: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    marginLeft: 30,
     marginRight: 30,
-    marginLeft: 30
-  }
+  },
 });
 
 function mapStateToProps(state) {
